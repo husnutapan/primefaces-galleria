@@ -14,6 +14,56 @@
         <component>
             <component-type>com.husnutapan.jsf.CustomInput</component-type>
         </component>
+        
+        <attribute>
+            <description>image attribute.</description>
+            <name>imageShow</name>
+            <required>false</required>
+            <type>java.lang.Boolean</type>
+            <default-value>false</default-value>
+        </attribute>
+        
+        <attribute>
+            <description>video attribute.</description>
+            <name>videoShow</name>
+            <required>false</required>
+            <type>java.lang.Boolean</type>
+            <default-value>false</default-value>
+        </attribute>
+        
+        <attribute>
+            <description>lightBox attribute.</description>
+            <name>lightBoxShow</name>
+            <required>false</required>
+            <type>java.lang.Boolean</type>
+            <default-value>false</default-value>
+        </attribute>
+        
+        <attribute>
+            <name>value</name>
+            <required>true</required>
+            <type>java.lang.Object</type>
+            <description>Collection of images.</description>
+        </attribute>
+        
+        <attribute>
+            <name>style</name>
+            <required>false</required>
+            <type>java.lang.String</type>
+            <description>Inline style of the container element.</description>
+        </attribute>
+        
+        <attribute>
+            <name>styleClass</name>
+            <required>false</required>
+            <type>java.lang.String</type>
+            <description>Style class of the container element.</description>
+        </attribute>
+          <attribute>
+            <name>prefix</name>
+            <required>true</required>
+            <type>java.lang.String</type>
+            <description>Images location.</description>
+        </attribute>
     </tag>
-
 </facelet-taglib>
